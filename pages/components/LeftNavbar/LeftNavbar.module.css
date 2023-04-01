@@ -1,0 +1,76 @@
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.iconDiv,
+.smallicondiv,
+.icondiv2 {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fbfc;
+  border: 1px solid #f8f8fa;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+.icondiv2 {
+  background: #3339cd;
+  border: none;
+}
+.smallicondiv {
+  width: 50px !important;
+  height: 50px !important;
+  background: unset;
+  border: none;
+}
+.smallicondivdark {
+  width: 50px !important;
+  height: 50px !important;
+  background: #7273dc;
+  border: 1px solid #989bff;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftMenu {
+  padding: 0 20px;
+  height: 100vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2px;
+  border: 2px solid white;
+}
+
+.top {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.violet {
+  background: #f1f5fd;
+  border: 1px solid #f1f5fd;
+  border-radius: 10px;
+}
+
+.bottom,
+.bottomdark {
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.bottomdark {
+  background: #3339cd;
+}

@@ -1,0 +1,33 @@
+.content,
+.contentdark {
+  padding: 80px 40px;
+  width: 100%;
+  font-family: FreeSans;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  /* left: -80%; */
+}
+
+@keyframes example {
+  from {
+    left: -80%;
+    width: 0;
+  }
+  to {
+    left: 0;
+    width: 100%;
+  }
+}
+.contentdark {
+  color: white;
+}
+.contentchild {
+  width: 80%;
+}
+.checkboxdiv {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
